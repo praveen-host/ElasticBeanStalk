@@ -5,13 +5,6 @@ VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElasticBeanStalk", "ElasticBeanStalk\ElasticBeanStalk.csproj", "{BB325779-CBBD-43CC-B260-47E0FB8FB851}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{06EC44F0-6501-4914-972C-67AE695084E2}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflow", "workflow", "{6943D161-2480-4BE5-86D6-BA6A163333A3}"
-	ProjectSection(SolutionItems) = preProject
-		DeployToElasticBeanStalk.yml = DeployToElasticBeanStalk.yml
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,9 +18,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{6943D161-2480-4BE5-86D6-BA6A163333A3} = {06EC44F0-6501-4914-972C-67AE695084E2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EBAAF15E-BEFB-4DE6-8F24-47E840E322A1}
