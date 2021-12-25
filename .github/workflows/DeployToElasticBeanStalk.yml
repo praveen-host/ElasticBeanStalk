@@ -28,6 +28,7 @@ jobs:
       uses: einaregilsson/build-number@v3
       with:
         token: ${{secrets.github_token}}  
+        prefix: client
     
     - name: Print new build number
       run: echo ${{ steps.buildnumber.outputs.build_number }}
