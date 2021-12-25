@@ -38,8 +38,8 @@ jobs:
       with:
         aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        application_name: testapplication
-        environment_name: Testapplication-env
+        application_name: test001
+        environment_name: Test001-env
         version_label: ${{ steps.buildnumber.outputs.build_number }}
         region: ap-south-1
         deployment_package: deploy.zip
