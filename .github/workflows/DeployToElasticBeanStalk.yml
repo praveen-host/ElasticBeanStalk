@@ -26,6 +26,8 @@ jobs:
       run: zip -r deploy.zip . -x '*.git*'
     - name: Generate build number
       uses: einaregilsson/build-number@v3
+      with:
+        token: ${{secrets.github_token}}  
       
     - name: Deploy to EB
       uses: einaregilsson/beanstalk-deploy@v20
